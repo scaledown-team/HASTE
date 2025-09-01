@@ -1,0 +1,34 @@
+
+[tool.poetry]
+name = "HasteContext"
+version = "0.2.1"
+description = "Parser-backed code-context compression using Tree-sitter"
+authors = ["Saish <84446371+Bainshedone@users.noreply.github.com>", "Mitali Raj <129144413+Hacxmr@users.noreply.github.com>","Mushtaq <Mushtaqsaeed577@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "haste" }
+]
+exclude = [
+    "pipeline.py",
+    "haste/_pipeline.py",
+    "test*.py",
+    "message*.csv",
+    "reports/**",
+    "*.ipynb"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+tree-sitter = ">=0.25.0"
+tree-sitter-language-pack = ">=0.2.3,<1.0.0"
+tiktoken = ">=0.11.0,<0.12.0"
+openai = ">=1.99.9,<2.0.0"
+numpy = ">=1.26,<3.0"
+rank-bm25 = ">=0.2.2,<0.3.0"
+
+[tool.poetry.scripts]
+hastecontext = "haste.cli:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

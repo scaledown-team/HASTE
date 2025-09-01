@@ -42,8 +42,8 @@ poetry add HasteContext
 
 ### Development Installation
 ```bash
-git clone https://github.com/Hacxmr/AST-Relevance-Compression.git
-cd AST-Relevance-Compression
+git clone https://github.com/scaledown-team/HASTE.git
+cd HASTE
 python -m venv .venv
 .\.venv\Scripts\activate  # Windows
 pip install -e .
