@@ -162,7 +162,6 @@ If you need full control, the lower-level modules remain available (indexing, me
 - Tree‑sitter runtime and `tree-sitter-language-pack` for Python
 - OpenAI API key only needed for `--semantic` or when using `OpenAIEmbedder`
 - All major operating systems supported (Windows, macOS, Linux)
-- This package does not include `pipeline.py`, `reports/`, and test scripts, which are used only for internal metrics.
 
 ---
 
