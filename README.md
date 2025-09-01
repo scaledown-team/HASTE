@@ -171,4 +171,4 @@ PRs welcome. Use Poetry for the dev environment (`poetry install`). Run linters/
 
 
 ## License
-MIT. See LICENSE file in the repository root.
+MIT. See LICENSE file in the repository root. 
