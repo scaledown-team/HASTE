@@ -2,7 +2,7 @@
 
 Parser-backed code-context compression for Python using Tree-sitter. It builds a structured index of functions/classes, ranks relevant functions for a free‑form query with lexical BM25 (optionally fused with semantic embeddings), expands along the call graph, then assembles a compact, LLM-ready payload. A minimal CLI is included for single-file workflows; the library API supports repository-level indexing and hybrid selection.
 
-[![PyPI version](https://badge.fury.io/py/HasteContext.svg)](https://badge.fury.io/py/HasteContext)
+[![PyPI version](https://img.shields.io/pypi/v/HasteContext.svg)](https://pypi.org/project/HasteContext/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/HasteContext.svg)](https://pypi.org/project/HasteContext/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
